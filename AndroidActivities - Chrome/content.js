@@ -14,7 +14,6 @@ function showResults(data){
 		jQuery('#doc-description-container').prepend("<h3>"+item.formatted_activity+"</h3>");
 
     });	
-	jQuery('#device-permissions-frag').append('<p>-----------------------------------------&gt;</p><p>Activity names brought to you by <a href="http://activities.droidicon.com">Android Activities</a></p>');
 }
 function getUrlVars()
 {
