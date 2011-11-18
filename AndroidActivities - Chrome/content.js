@@ -7,7 +7,6 @@ jQuery(document).ready(function(){
 	    },"json");
 	}
 	
-//	jQuery('#doc-description-container').prepend("<h3>com_alphonso_pulse_mainactivity</h3>");
 });
 function showResults(data){
 	jQuery.each(data, function(i,item){
