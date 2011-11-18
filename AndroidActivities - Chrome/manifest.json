@@ -1,0 +1,20 @@
+{
+  "name": "Android Activities",
+  "version": "1.0",
+  "description": "Get the Activity names for Android apps when browsing the Android Market.",
+
+    "content_scripts": [
+    {
+      "matches": ["https://market.android.com/*"],
+      "js": ["jquery.min.js", "content.js"]
+    }
+  ],
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "homepage_url": "http://activities.droidicon.com/",
+  "permissions": [
+    "https://market.android.com/",
+    "http://activities.droidicon.com/"
+  ]
+}
