@@ -5,7 +5,7 @@
 
     "content_scripts": [
     {
-      "matches": ["https://market.android.com/*"],
+      "matches": ["https://play.google.com/*"],
       "js": ["jquery.min.js", "content.js"]
     }
   ],
@@ -14,7 +14,7 @@
           "128": "icon128.png" },
   "homepage_url": "http://activities.droidicon.com/",
   "permissions": [
-    "https://market.android.com/",
+    "https://play.google.com/",
     "http://activities.droidicon.com/"
   ]
 }
